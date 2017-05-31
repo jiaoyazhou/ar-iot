@@ -1,0 +1,19 @@
+<ui version="4.0" >
+ <class>expertinfo_operation_windowClass</class>
+ <widget class="QWidget" name="expertinfo_operation_windowClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>expertinfo_operation_window</string>
+  </property>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

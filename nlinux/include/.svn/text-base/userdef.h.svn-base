@@ -1,0 +1,47 @@
+#ifndef __USERDEF_H__
+#define __USERDEF_H__
+
+#include <vector>
+using std::vector;
+
+extern "C" {
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+}
+#include <string>
+//#include <qstring.h>
+using namespace std;
+
+/****************************************************数据库结构******************************************************/
+//用户登录记录
+struct AR_LoginInfo{
+    char strUserId[50];                  //用户ID
+    char strPassWord[50];                //登录密码
+};
+
+//采集器采集到的信息
+struct ST_ArcollectInfo{
+	string  strtime;                  //时间
+	string  strArvariety;             //品种
+	int      iArid;                   //节点编号
+	string  strArairtemper;           //空气温度
+	string  strArairhumid;            //空气湿度
+	string  strArsoiltemper;          //土壤温度
+	string  strArsoilhumid;           //土壤湿度
+	string  strArco2;                 //二氧化碳浓度
+};
+
+//专家知识库的信息
+struct ST_ExpertInfo{
+	int     iExpertid;                 //序号
+	string  strExpertvariety;          //品种
+	string  strExpertairtemper;        //适宜空气温度
+	string  strExpertairhumid;         //适宜空气湿度
+	string  strExpertsoiltemper;       //适宜土壤温度
+	string  strExpertsoilhumid;        //适宜土壤湿度
+	string  strExpertco2;              //适宜二氧化碳浓度
+};
+
+
+#endif // __USERDEF_H__

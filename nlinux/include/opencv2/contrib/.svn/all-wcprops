@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/contrib
+END
+hybridtracker.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/contrib/hybridtracker.hpp
+END
+contrib.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/contrib/contrib.hpp
+END
+retina.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/contrib/retina.hpp
+END
+detection_based_tracker.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/contrib/detection_based_tracker.hpp
+END
+openfabmap.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/contrib/openfabmap.hpp
+END

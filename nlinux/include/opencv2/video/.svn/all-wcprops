@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/video
+END
+background_segm.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/video/background_segm.hpp
+END
+tracking.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/video/tracking.hpp
+END
+video.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/video/video.hpp
+END

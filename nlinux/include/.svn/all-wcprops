@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Fzzkc/!svn/ver/116/branches/ar-iot/nlinux/include
+END
+myinputpanelcontext.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Fzzkc/!svn/ver/104/branches/ar-iot/nlinux/include/myinputpanelcontext.h
+END
+pngconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/pngconf.h
+END
+userdef.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Fzzkc/!svn/ver/127/branches/ar-iot/nlinux/include/userdef.h
+END
+QZXing_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/115/branches/ar-iot/nlinux/include/QZXing_global.h
+END
+qrencode.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/qrencode.h
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/zlib.h
+END
+localcharset.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/localcharset.h
+END
+ycapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Fzzkc/!svn/ver/104/branches/ar-iot/nlinux/include/ycapi.h
+END
+sqlite3ext.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Fzzkc/!svn/ver/94/branches/ar-iot/nlinux/include/sqlite3ext.h
+END
+iconv.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/iconv.h
+END
+inifile.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/inifile.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/zconf.h
+END
+QZXing.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Fzzkc/!svn/ver/115/branches/ar-iot/nlinux/include/QZXing.h
+END
+libcharset.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/libcharset.h
+END
+pnglibconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/pnglibconf.h
+END
+png.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/png.h
+END
+sqlite3.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Fzzkc/!svn/ver/94/branches/ar-iot/nlinux/include/sqlite3.h
+END

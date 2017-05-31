@@ -1,0 +1,35 @@
+/*
+ * global.h
+ *
+ *  Created on: 2017年4月25日
+ *      Author: root
+ */
+
+#ifndef GLOBAL_H_
+#define GLOBAL_H_
+
+#include "userdef.h"
+#include "ui/statusbar.h"
+#include "qrcode/qrcode.h"
+#include "database/Database.h"
+
+static QString LOCALPIC_PATH ="/ufs/lib/pic/";
+static QString LOCALPHOTO_PATH = "/ufs/photo/";
+static QString LOCALAUDIO_PATH = "/ufs/audio/";
+static QString LOCALVIDEO_PATH = "/ufs/video/";
+static QString LOCALSOFTWARE_PATH = "/ufs/software/";
+
+
+extern QrCode *g_qrcode;
+extern statusbar *g_Statusbar;
+extern Database *g_database;
+
+extern QSize g_ScreenSize;
+extern QRect g_RcStatusbar;
+extern QRect g_RcMain;
+extern QFont g_Font[3];
+extern QPalette g_Palette;
+extern QVector<int> m_temperature;
+extern QVector<int> m_humidity;
+
+#endif /* GLOBAL_H_ */

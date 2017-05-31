@@ -1,0 +1,19 @@
+<ui version="4.0" >
+ <class>video_showClass</class>
+ <widget class="QWidget" name="video_showClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>video_show</string>
+  </property>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

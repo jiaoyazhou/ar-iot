@@ -1,0 +1,216 @@
+#include "expertinfo_operation_window.h"
+
+expertinfo_operation_window::expertinfo_operation_window(QWidget *parent, int button_flag)
+    : QDialog(parent)
+{
+	this->setAttribute(Qt::WA_DeleteOnClose);
+	this->setWindowFlags(windowFlags()|Qt::FramelessWindowHint|Qt::WindowTitleHint);
+
+	m_MainLayout = new QGridLayout(this);
+
+	label_Expertid = new QLabel(tr("序号:"));
+	label_Expertvariety = new QLabel(tr("品种:"));
+	label_Expertairtemper = new QLabel(tr("空气温度:"));
+	label_Expertairhumid = new QLabel(tr("空气湿度:"));
+	label_Expertsoiltemper = new QLabel(tr("土壤温度:"));
+	label_Expertsoilhumid = new QLabel(tr("土壤湿度:"));
+	label_Expertco2 = new QLabel(tr("CO2浓度:"));
+
+	text_Expertid = new QLineEdit;
+	text_Expertvariety = new QLineEdit;
+	text_Expertairtemper = new QLineEdit;
+	text_Expertairhumid = new QLineEdit;
+	text_Expertsoiltemper = new QLineEdit;
+	text_Expertsoilhumid = new QLineEdit;
+	text_Expertco2 = new QLineEdit;
+
+	button_sure = new QPushButton(tr("确认"), this);
+	button_cancel = new QPushButton(tr("取消"), this);
+
+	m_flag = button_flag;
+
+	set_sizeof_window(button_flag);
+
+	this->setGeometry(m_Rcwindow);
+	m_MainLayout->setGeometry(m_Rcwindow);
+
+	connect(button_sure,SIGNAL(clicked()),this,SLOT(ReturnInputInfo()));
+	connect(button_cancel,SIGNAL(clicked()),this,SLOT(Close()));
+
+
+}
+
+expertinfo_operation_window::~expertinfo_operation_window()
+{
+
+}
+
+/*
+ * 根据不同的按钮，设置不同的界面大小及内容
+ */
+void expertinfo_operation_window::set_sizeof_window(int button_flag)
+{
+	switch(button_flag)
+	{
+		case 1:
+			m_Rcwindow =QRect(g_ScreenSize.width()*2/8, g_ScreenSize.height()*5/14, g_ScreenSize.width()*4/8, g_ScreenSize.height()*4/14);
+			label_title = new QLabel(tr("查找"));
+			m_MainLayout->addWidget(label_title,0,0);
+			m_MainLayout->addWidget(label_Expertid,1,0);
+			m_MainLayout->addWidget(text_Expertid,1,1);
+			m_MainLayout->addWidget(label_Expertvariety,2,0);
+			m_MainLayout->addWidget(text_Expertvariety,2,1);
+			m_MainLayout->addWidget(button_sure,3,1);
+			m_MainLayout->addWidget(button_cancel,3,0);
+			break;
+
+		case 2:
+			m_Rcwindow =QRect(g_ScreenSize.width()*2/8, g_ScreenSize.height()*3/14, g_ScreenSize.width()*4/8, g_ScreenSize.height()*9/14);
+			label_title = new QLabel(tr("添加"));
+			m_MainLayout->addWidget(label_title,0,0);
+			m_MainLayout->addWidget(label_Expertid,1,0);
+			m_MainLayout->addWidget(text_Expertid,1,1);
+			m_MainLayout->addWidget(label_Expertvariety,2,0);
+			m_MainLayout->addWidget(text_Expertvariety,2,1);
+			m_MainLayout->addWidget(label_Expertairtemper,3,0);
+			m_MainLayout->addWidget(text_Expertairtemper,3,1);
+			m_MainLayout->addWidget(label_Expertairhumid,4,0);
+			m_MainLayout->addWidget(text_Expertairhumid,4,1);
+			m_MainLayout->addWidget(label_Expertsoiltemper,5,0);
+			m_MainLayout->addWidget(text_Expertsoiltemper,5,1);
+			m_MainLayout->addWidget(label_Expertsoilhumid,6,0);
+			m_MainLayout->addWidget(text_Expertsoilhumid,6,1);
+			m_MainLayout->addWidget(label_Expertco2,7,0);
+			m_MainLayout->addWidget(text_Expertco2,7,1);
+			m_MainLayout->addWidget(button_sure,8,1);
+			m_MainLayout->addWidget(button_cancel,8,0);
+			break;
+
+		default:
+			m_Rcwindow =QRect(g_ScreenSize.width()*2/8, g_ScreenSize.height()*5/14, g_ScreenSize.width()*4/8, g_ScreenSize.height()*4/14);
+	}
+}
+
+/*
+ * 确认按钮按下，将输入结果发送到原界面
+ */
+void expertinfo_operation_window::ReturnInputInfo()
+{
+	ST_ExpertInfo  InputExpertInfo;
+	switch(m_flag)
+	{
+	case 1:
+	{
+		QString Expertid = text_Expertid->text();
+		QString Expertvariety = text_Expertvariety->text();
+
+		if(Expertid.length() < 1 && Expertvariety.length() <1)
+		{
+			QMessageBox::warning(this,tr("警告"),QString("输入为空！"));
+			return;
+		}
+		else
+		{
+			if(Expertvariety.length() >= 1)
+			{
+				InputExpertInfo.strExpertvariety =  Expertvariety.toStdString();
+			}
+			if(Expertid.length() >= 1)
+			{
+				InputExpertInfo.iExpertid =  Expertid.toInt();
+			}
+		}
+		break;
+	}
+	case 2:
+	{
+			QString Expertid = text_Expertid->text();
+			if(Expertid.length() < 1 )
+			{
+				QMessageBox::warning(this,tr("警告"),QString("ID为空！\n添加失败！"));
+			    this->close();
+			    return;
+			}
+			else
+			{
+				InputExpertInfo.iExpertid =  Expertid.toInt();
+
+			}
+
+			QString Expertvariety = text_Expertvariety->text();
+			if(Expertvariety.length() < 1 )
+			{
+				QMessageBox::warning(this,tr("警告"),QString("品种为空！\n添加失败！"));
+				 this->close();
+				 return;
+			}
+			else
+			{
+				InputExpertInfo.strExpertvariety =  Expertid.toStdString();
+			}
+
+			QString Expertairtemper = text_Expertairtemper->text();
+			if(Expertairtemper.length() < 1 )
+			{
+				QMessageBox::warning(this,tr("警告"),QString("空气温度为空！\n添加失败！"));
+				 this->close();
+				 return;
+			}
+			else
+			{
+				InputExpertInfo.iExpertairtemper =  Expertairtemper.toInt();
+			}
+
+			QString Expertairhumid = text_Expertairhumid->text();
+			if(Expertairhumid.length() < 1 )
+			{
+				QMessageBox::warning(this,tr("警告"),QString("空气湿度为空！\n添加失败！"));
+				 this->close();
+				 return;
+			}
+			else
+			{
+				InputExpertInfo.iExpertairhumid =  Expertairhumid.toInt();
+			}
+
+			QString Expertsoiltemper = text_Expertsoiltemper->text();
+			if(Expertsoiltemper.length() < 1 )
+			{
+				QMessageBox::warning(this,tr("警告"),QString("土壤温度为空！\n添加失败！"));
+				 this->close();
+				 return;
+			}
+			else
+			{
+				InputExpertInfo.iExpertsoiltemper =  Expertsoiltemper.toInt();
+			}
+
+			QString Expertsoilhumid = text_Expertsoilhumid->text();
+			if(Expertsoilhumid.length() < 1 )
+			{
+				QMessageBox::warning(this,tr("警告"),QString("土壤湿度为空！\n添加失败！"));
+				 this->close();
+				 return;
+			}
+			else
+			{
+				InputExpertInfo.iExpertsoilhumid =  Expertsoilhumid.toInt();
+			}
+
+			QString Expertco2 = text_Expertco2->text();
+			if(Expertco2.length() < 1 )
+			{
+				QMessageBox::warning(this,tr("警告"),QString("CO2浓度为空！\n添加失败！"));
+				 this->close();
+				 return;
+			}
+			else
+			{
+				InputExpertInfo.iExpertco2 =  Expertco2.toInt();
+			}
+			break;
+		}
+	}
+	   this->close();
+	   emit sendData(InputExpertInfo);
+}

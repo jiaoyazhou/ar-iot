@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/iot">
+        <file>png/statuabar.png</file>
+        <file>png/button/disable.png</file>
+        <file>png/button/normal.png</file>
+        <file>png/button/press.png</file>
+        <file>png/background.jpg</file>
+    </qresource>
+</RCC>

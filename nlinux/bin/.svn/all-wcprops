@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/bin
+END
+qrencode
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/bin/qrencode
+END
+opencv_haartraining
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/bin/opencv_haartraining
+END
+opencv_createsamples
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/bin/opencv_createsamples
+END
+opencv_performance
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/bin/opencv_performance
+END
+opencv_traincascade
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/bin/opencv_traincascade
+END
+iconv
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/bin/iconv
+END

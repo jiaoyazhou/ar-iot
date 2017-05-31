@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/Fzzkc/!svn/ver/125/branches/ar-iot/iot
+END
+global.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Fzzkc/!svn/ver/124/branches/ar-iot/iot/global.cpp
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Fzzkc/!svn/ver/109/branches/ar-iot/iot/.project
+END
+global.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Fzzkc/!svn/ver/124/branches/ar-iot/iot/global.h
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Fzzkc/!svn/ver/109/branches/ar-iot/iot/.cproject
+END
+ui_video_show.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Fzzkc/!svn/ver/115/branches/ar-iot/iot/ui_video_show.h
+END
+iot.pro
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Fzzkc/!svn/ver/124/branches/ar-iot/iot/iot.pro
+END
+ui_statusbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Fzzkc/!svn/ver/120/branches/ar-iot/iot/ui_statusbar.h
+END
+ui_login.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Fzzkc/!svn/ver/124/branches/ar-iot/iot/ui_login.h
+END
+Makefile.Release
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Fzzkc/!svn/ver/120/branches/ar-iot/iot/Makefile.Release
+END
+ui_mainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Fzzkc/!svn/ver/122/branches/ar-iot/iot/ui_mainwindow.h
+END
+ui_setting.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Fzzkc/!svn/ver/113/branches/ar-iot/iot/ui_setting.h
+END
+Makefile.Debug
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Fzzkc/!svn/ver/120/branches/ar-iot/iot/Makefile.Debug
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Fzzkc/!svn/ver/120/branches/ar-iot/iot/main.cpp
+END
+ui_maincontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Fzzkc/!svn/ver/120/branches/ar-iot/iot/ui_maincontrol.h
+END
+png.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Fzzkc/!svn/ver/120/branches/ar-iot/iot/png.qrc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Fzzkc/!svn/ver/120/branches/ar-iot/iot/Makefile
+END

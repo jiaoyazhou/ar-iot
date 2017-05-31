@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/ts
+END
+ts_gtest.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/ts/ts_gtest.h
+END
+ts_perf.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/ts/ts_perf.hpp
+END
+ts.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/ts/ts.hpp
+END

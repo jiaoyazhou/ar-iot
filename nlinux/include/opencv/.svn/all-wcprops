@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv
+END
+cvwimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cvwimage.h
+END
+cxeigen.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cxeigen.hpp
+END
+cxcore.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cxcore.h
+END
+cxcore.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cxcore.hpp
+END
+highgui.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/highgui.h
+END
+cvaux.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cvaux.h
+END
+cvaux.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cvaux.hpp
+END
+cxmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cxmisc.h
+END
+cv.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cv.h
+END
+cv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/cv.hpp
+END
+ml.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv/ml.h
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab
+END
+frame_source.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/frame_source.hpp
+END
+deblurring.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/deblurring.hpp
+END
+inpainting.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/inpainting.hpp
+END
+videostab.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/videostab.hpp
+END
+log.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/log.hpp
+END
+optical_flow.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/optical_flow.hpp
+END
+motion_stabilizing.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/motion_stabilizing.hpp
+END
+fast_marching.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/fast_marching.hpp
+END
+global_motion.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/global_motion.hpp
+END
+fast_marching_inl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/fast_marching_inl.hpp
+END
+stabilizer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/videostab/stabilizer.hpp
+END

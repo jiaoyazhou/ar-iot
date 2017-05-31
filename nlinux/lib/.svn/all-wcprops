@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Fzzkc/!svn/ver/118/branches/ar-iot/nlinux/lib
+END
+libopencv_flann.so
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_flann.so
+END
+libz.so
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libz.so
+END
+libopencv_calib3d.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_calib3d.so
+END
+libopencv_legacy.so
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_legacy.so
+END
+libiconv.so.2
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libiconv.so.2
+END
+libQZXing.so.2.3.0
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Fzzkc/!svn/ver/115/branches/ar-iot/nlinux/lib/libQZXing.so.2.3.0
+END
+libiconv.so.2.5.1
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libiconv.so.2.5.1
+END
+libQZXing.so.2
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Fzzkc/!svn/ver/115/branches/ar-iot/nlinux/lib/libQZXing.so.2
+END
+libopencv_video.so
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_video.so
+END
+libopencv_ml.so
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_ml.so
+END
+libsqlite3.so
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Fzzkc/!svn/ver/95/branches/ar-iot/nlinux/lib/libsqlite3.so
+END
+libcharset.so
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libcharset.so
+END
+libpng16.so
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libpng16.so
+END
+libopencv_highgui.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_highgui.so
+END
+libqrencode.so.3
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libqrencode.so.3
+END
+libopencv_core.so
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_core.so
+END
+libqrencode.so.3.4.4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libqrencode.so.3.4.4
+END
+libopencv_gpu.so
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_gpu.so
+END
+libopencv_nonfree.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_nonfree.so
+END
+libpng16.so.16.29.0
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libpng16.so.16.29.0
+END
+libz.so.1
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libz.so.1
+END
+libopencv_contrib.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_contrib.so
+END
+libopencv_imgproc.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_imgproc.so
+END
+libopencv_objdetect.so
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_objdetect.so
+END
+libiconv.so
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libiconv.so
+END
+libopencv_features2d.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_features2d.so
+END
+libQZXing.so
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Fzzkc/!svn/ver/115/branches/ar-iot/nlinux/lib/libQZXing.so
+END
+libpng16.so.16
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libpng16.so.16
+END
+libQZXing.so.2.3
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Fzzkc/!svn/ver/115/branches/ar-iot/nlinux/lib/libQZXing.so.2.3
+END
+libsqlite3.so.0
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Fzzkc/!svn/ver/95/branches/ar-iot/nlinux/lib/libsqlite3.so.0
+END
+libcharset.so.1.0.0
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libcharset.so.1.0.0
+END
+libpng.so
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libpng.so
+END
+libcharset.so.1
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libcharset.so.1
+END
+libz.so.1.2.11
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libz.so.1.2.11
+END
+libopencv_videostab.so
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_videostab.so
+END
+libsqlite3.so.0.8.6
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libsqlite3.so.0.8.6
+END
+libopencv_ts.so
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_ts.so
+END
+libqrencode.so
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libqrencode.so
+END
+libopencv_photo.so
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_photo.so
+END
+libycapi.so
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Fzzkc/!svn/ver/107/branches/ar-iot/nlinux/lib/libycapi.so
+END
+libopencv_stitching.so
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/lib/libopencv_stitching.so
+END

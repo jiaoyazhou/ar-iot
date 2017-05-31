@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/gpu
+END
+gpu.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/gpu/gpu.hpp
+END
+gpumat.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/gpu/gpumat.hpp
+END
+stream_accessor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/gpu/stream_accessor.hpp
+END
+devmem2d.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/gpu/devmem2d.hpp
+END

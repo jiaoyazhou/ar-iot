@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/legacy
+END
+streams.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/legacy/streams.hpp
+END
+blobtrack.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/legacy/blobtrack.hpp
+END
+compat.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/legacy/compat.hpp
+END
+legacy.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Fzzkc/!svn/ver/110/branches/ar-iot/nlinux/include/opencv2/legacy/legacy.hpp
+END
