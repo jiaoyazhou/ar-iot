@@ -22,7 +22,7 @@ static const uint qt_meta_data_maincontrol[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       2,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -32,15 +32,12 @@ static const uint qt_meta_data_maincontrol[] = {
  // slots: signature, parameters, type, tag, flags
       13,   12,   12,   12, 0x08,
       24,   12,   12,   12, 0x08,
-      37,   12,   12,   12, 0x08,
-      53,   12,   49,   12, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_maincontrol[] = {
     "maincontrol\0\0btnClick()\0UpdateData()\0"
-    "OnComRead()\0int\0get_realdata()\0"
 };
 
 void maincontrol::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -51,12 +48,10 @@ void maincontrol::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         switch (_id) {
         case 0: _t->btnClick(); break;
         case 1: _t->UpdateData(); break;
-        case 2: _t->OnComRead(); break;
-        case 3: { int _r = _t->get_realdata();
-            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = _r; }  break;
         default: ;
         }
     }
+    Q_UNUSED(_a);
 }
 
 const QMetaObjectExtraData maincontrol::staticMetaObjectExtraData = {
@@ -91,9 +86,9 @@ int maincontrol::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 2;
     }
     return _id;
 }

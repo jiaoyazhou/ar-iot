@@ -27,8 +27,6 @@ public:
     expertinfo_window(QWidget *parent = 0);
     ~expertinfo_window();
 
-    Database expertdata;
-
 private:
     QGridLayout        *m_MainLayout;//最底层布局
     QTableView         *datatableview;//表格布局的数据显示

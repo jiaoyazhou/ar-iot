@@ -64,12 +64,12 @@ protected:
     virtual void run();
 
 protected:
-	int lcom_setbaut(int speed);
-	int lcom_setpara(int databits, int stopbits, int parity);
+	int lcom_setbaut(int speed);   //设置波特率
+	int lcom_setpara(int databits, int stopbits, int parity);   //设置数据格式
 
 private:
 	char *m_strCom;
-	volatile int m_comfd;
+	volatile int m_comfd;   //作为指令关键字，确保本条指令不会因编译器的优化而省略，且要求每次直接读值.
 	int m_speed,m_databits,m_stopbits,m_parity;
 
 	QMutex m_mutex;

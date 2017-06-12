@@ -50,7 +50,7 @@ expertinfo_window::expertinfo_window(QWidget *parent)
 	m_currentrow = 0;
 
 	v_expertinfo.clear();
-	expertdata.getExpertInfo(v_expertinfo);
+	g_database->getExpertInfo(v_expertinfo);
 	datatableview_update(v_expertinfo);
 
 	connect(button_delete, SIGNAL(clicked()), this, SLOT(button_delete_clicked()));
@@ -89,7 +89,7 @@ void expertinfo_window::button_increate_clicked()
  */
 void expertinfo_window::button_update_clicked()
 {
-	expertdata.getExpertInfo(v_expertinfo);
+	g_database->getExpertInfo(v_expertinfo);
 	datatableview_update(v_expertinfo);
 }
 
@@ -113,8 +113,8 @@ void expertinfo_window::button_delete_clicked()
 		reply = QMessageBox::information(this, tr("删除"), tr("确认删除？"), QMessageBox::Yes|QMessageBox::No, QMessageBox::Yes);
 			if(reply == QMessageBox::Yes)
 			{
-				expertdata.deleteExpertInfo(deleteid);
-				expertdata.getExpertInfo(v_expertinfo);
+				g_database->deleteExpertInfo(deleteid);
+				g_database->getExpertInfo(v_expertinfo);
 				datatableview_update(v_expertinfo);
 			}
 	}
@@ -136,12 +136,12 @@ void expertinfo_window::receiveData(ST_ExpertInfo InputInfo)
 			printf("start size is %d\n", v_expertinfo.size());
 			if(InputInfo.strExpertvariety.size() == 0)
 			{
-				expertdata.getExpertInfoById(v_expertinfo,InputInfo.iExpertid);
+				g_database->getExpertInfoById(v_expertinfo,InputInfo.iExpertid);
 			}
 			else
 			{
 				char * strExpertvariety = const_cast<char *>(InputInfo.strExpertvariety.c_str());
-				expertdata.getExpertInfoByVariety(v_expertinfo,strExpertvariety);
+				g_database->getExpertInfoByVariety(v_expertinfo,strExpertvariety);
 			}
 
 			datatableview_update(v_expertinfo);
@@ -150,8 +150,8 @@ void expertinfo_window::receiveData(ST_ExpertInfo InputInfo)
 		//添加按钮按下，用户可输入新的记录;
 		case 2:
 		{
-			expertdata.insertIntoExpertInfo(InputInfo);
-			expertdata.getExpertInfo(v_expertinfo);
+			g_database->insertIntoExpertInfo(InputInfo);
+			g_database->getExpertInfo(v_expertinfo);
 			datatableview_update(v_expertinfo);
 			break;
 		}

@@ -3,7 +3,7 @@
 
 static int int_temp;
 static int int_humid;
-static int parase_data(uint8_t *_protocol, int _len);
+//static int parase_data(uint8_t *_protocol, int _len);
 maincontrol::maincontrol(QWidget *parent)
     : QWidget(parent),
 	  m_ScrollArea(0),
@@ -73,34 +73,36 @@ maincontrol::maincontrol(QWidget *parent)
 
 	fm1->setLayout(mainLayout1);
 
-	m_temperature.clear();
-	m_humidity.clear();
+//	m_temperature.clear();
+//	m_humidity.clear();
 
     updateTimer1=new QTimer(this);
     updateTimer1->setInterval(200);
     updateTimer2=new QTimer(this);
     updateTimer2->setInterval(300);
 
-    list = new protocol_list_t();
-    protocol_list_init(list, m_buf, sizeof(m_buf));
+//    list = new protocol_list_t();
+//    protocol_list_init(list, m_buf, sizeof(m_buf));
 
     connect(updateTimer1,SIGNAL(timeout()),this,SLOT(get_realdata()));
     connect(updateTimer2,SIGNAL(timeout()),this,SLOT(UpdateData()));
 	connect(ui.pushButton,SIGNAL(clicked()),this,SLOT(btnClick()));
 
-	m_comcontrol = new comcontrol("/dev/ttySAC1", 115200);
-	int ret = m_comcontrol->Com_Init();
-	if(ret < 0)
-	{
-		printf("init error\n");
-		//return ret;
-	}
-	else
-	{
-		connect(m_comcontrol,SIGNAL(OnComRead()),this,SLOT(OnComRead()));
-		updateTimer1->start();
-	}
+	m_getdata = new getdata();
 
+//	m_comcontrol = new comcontrol("/dev/ttySAC1", 115200);
+//	int ret = m_comcontrol->Com_Init();
+//	if(ret < 0)
+//	{
+//		printf("init error\n");
+//		return ret;
+//	}
+//	else
+//	{
+//		connect(m_comcontrol,SIGNAL(OnComRead()),m_datahandle,SLOT(OnComRead()));
+//	}
+
+	updateTimer1->start();
 	updateTimer2->start();
 }
 
@@ -242,53 +244,49 @@ void maincontrol::UpdateData()
 }
 
 
-void maincontrol::OnComRead()
-{
-	uint8_t com_initdata[100];
-	int ret = 0;
+//void maincontrol::OnComRead()
+//{
+//	uint8_t com_initdata[100];
+//	int ret = 0;
+//
+//	ret = m_comcontrol->ComRecv((char *)com_initdata, sizeof(com_initdata));
+//	printf("read : %d  \n",ret);
+//
+//	ret = put_data_to_list(list, (uint8_t *)com_initdata, sizeof(com_initdata));
+//	printf("put_data_to_list %d \n",ret);
+//}
 
-	ret = m_comcontrol->ComRecv((char *)com_initdata, sizeof(com_initdata));
-	printf("read : %d  \n",ret);
-
-	ret = put_data_to_list(list, (uint8_t *)com_initdata, sizeof(com_initdata));
-	printf("put_data_to_list %d \n",ret);
-}
-
-int maincontrol::get_realdata()
-{
-	int ret = parase_protocol(list, parase_data);
-	printf("parase_protocol %d \n",ret);
-}
-
-static int parase_data(uint8_t *_protocol, int _len)
-{
-	printf("===parase_data===\n");
-	protocol_stable_t* stable =(protocol_stable_t*)_protocol;
-	if(stable->command == CMD_REPORTER)
-	{
-		if(stable->flag == FLAG_TEMPERATURE)
-		{
-			protocol_reporter_status* uint32_temp = (protocol_reporter_status*)stable;
-			int_temp = big_to_uint32(&uint32_temp->value);
-		    printf("====温度： %d==== \n", int_temp);
-			m_temperature.push_back(int_temp);
-		}
-		else if(stable->flag == FLAG_HUMIDITY)
-		{
-			protocol_reporter_status* uint32_humid = (protocol_reporter_status*)stable;
-			int_humid = big_to_uint32(&uint32_humid->value);
-		    printf("====湿度： %d====\n", int_humid);
-			m_humidity.push_back(int_humid);
-		}
-		else
-		{
-			return -1;
-		}
-		return 0;
-
-	}
-	else
-	{
-		return -1;
-	}
-}
+//int maincontrol::get_realdata()
+//{
+//	int ret = parase_protocol(list, parase_data);
+//	printf("parase_protocol %d \n",ret);
+//}
+//
+//static int parase_data(uint8_t *_protocol, int _len)
+//{
+//	protocol_stable_t* stable =(protocol_stable_t*)_protocol;
+//	//获取序列号，时间，置标志位
+//
+//	if(stable->command != CMD_REPORTER)  //根据命令情况，转换为不同的数据结构
+//	{
+//		protocol_reporter_status* report_data = (protocol_reporter_status*)stable;
+//		int value = big_to_uint32(&report_data->value);
+//	}
+//
+//	switch(stable->flag)
+//	{
+//		case FLAG_TEMPERATURE:
+//			printf("====温度： %d==== \n", value);
+//			//m_temperature.push_back(int_temp);
+//			break;
+//
+//		case FLAG_HUMIDITY:
+//			printf("====湿度： %d====\n", value);
+//		//	m_humidity.push_back(int_humid);
+//			break;
+//
+//		case FLAG_HUMIDITY:
+//
+//	}
+//		return 0;
+//}

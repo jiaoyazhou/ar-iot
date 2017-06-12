@@ -29,7 +29,5 @@ extern QRect g_RcStatusbar;
 extern QRect g_RcMain;
 extern QFont g_Font[3];
 extern QPalette g_Palette;
-extern QVector<int> m_temperature;
-extern QVector<int> m_humidity;
 
 #endif /* GLOBAL_H_ */

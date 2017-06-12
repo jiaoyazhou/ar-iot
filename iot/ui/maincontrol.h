@@ -8,6 +8,7 @@
 #include"comcontrol/serial_control.h"
 #include"comcontrol/protocol.h"
 #include "comcontrol/comcontrol.h"
+#include "comcontrol/getdata.h"
 
 class maincontrol : public QWidget
 {
@@ -31,8 +32,8 @@ protected:
 private slots:
 	void btnClick();
     void UpdateData();
-    void OnComRead();
-    int get_realdata();
+//    void OnComRead();
+//    int get_realdata();
 
 private:
     Ui::maincontrolClass ui;
@@ -61,11 +62,15 @@ private:
     mctrtabchart1 *tabchart1;
     mctrtabchart1 *tabchart2;
 
+    ST_CollectInfo  m_collectinfo;
+
+ //   vector<ST_CollectInfo> m_collectinfo;
 
     uint8_t m_buf[1024];
     protocol_list_t *list;
 
     comcontrol *m_comcontrol;
+    getdata *m_getdata;
 };
 
 #endif // MAINCONTROL_H

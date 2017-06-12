@@ -14,7 +14,8 @@ LIBS += -L../nlinux/lib \
     -lpng \
     -lqrencode \
     -lsqlite3
-HEADERS += userdef.h \
+HEADERS += comcontrol/getdata.h \
+    userdef.h \
     database/Database.h \
     ui/expertinfo_operation_window.h \
     ui/expertinfo_window.h \
@@ -35,7 +36,8 @@ HEADERS += userdef.h \
     global.h \
     systat/get_cpu.h \
     systat/sysstat.h
-SOURCES += database/Database.cpp \
+SOURCES += comcontrol/getdata.cpp \
+    database/Database.cpp \
     ui/expertinfo_operation_window.cpp \
     ui/expertinfo_window.cpp \
     comcontrol/protocol.c \

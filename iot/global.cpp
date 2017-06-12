@@ -19,6 +19,3 @@ QRect g_RcMain = QRect(0,0,0,0);
 QFont g_Font[3];
 
 QPalette g_Palette;
-
-QVector<int> m_temperature;
-QVector<int> m_humidity;

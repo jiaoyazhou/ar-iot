@@ -55,6 +55,7 @@ typedef enum
 {
 	FLAG_TEMPERATURE = 0x01,
 	FLAG_HUMIDITY = 0x02,
+	FLAG_CO2 = 0x03,
 }flag_t;
 
 

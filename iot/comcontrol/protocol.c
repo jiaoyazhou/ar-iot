@@ -161,13 +161,11 @@ int parase_protocol(protocol_list_t *_list, int (*do_cmd)(uint8_t *_protocol, in
 	}
 
 	//check bcc
-	/*
 	if (protocol_buf[len] != calc_bcc(protocol_buf, len-1))
 	{
 		printf("CHECK bcc error\n");
 		return -1;//check error
 	}
-	*/
 	return do_cmd(protocol_buf, len);
 }
 

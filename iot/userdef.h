@@ -22,7 +22,7 @@ struct AR_LoginInfo{
 
 enum ValueFlag
 {
-	airtemper,
+	airtemper = 0,
 	airhumid,
 	soiltemper,
 	soilhumid,
@@ -48,6 +48,4 @@ struct ST_ExpertInfo{
 	int     iExpertsoilhumid;        //适宜土壤湿度
 	int     iExpertco2;              //适宜二氧化碳浓度
 };
-
-
 #endif // __USERDEF_H__
